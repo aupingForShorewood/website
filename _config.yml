@@ -75,29 +75,29 @@ primary_navigation:
 # changed if you know what they do
 ##########################################################################################
 
-#collections:
-#  pages:
-#    output: true
-#    permalink: /:path/
-#  docs:
-#    output: true
-#    permalink: /:collection/:path/
-#  kbarticles:
-#    output: true
-#    permalink: /knowledge-base/:path/
-#
-#
-#permalink: pretty
-#
-#markdown: kramdown
-#url: "https://aupingforshorewood.com"
-#plugins:
-#  - jekyll-feed
-#  - jekyll-paginate-v2
-#  - jekyll-redirect-from
-#  - jekyll-sitemap
-#  - jekyll-seo-tag
-#  - jekyll-last-modified-at
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+  docs:
+    output: true
+    permalink: /:collection/:path/
+  kbarticles:
+    output: true
+    permalink: /knowledge-base/:path/
+
+
+permalink: pretty
+
+markdown: kramdown
+url: "https://aupingforshorewood.com"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate-v2
+  - jekyll-redirect-from
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-last-modified-at
 
 ############################################################
 # Site configuration for the Jekyll 3 Pagination Gem
@@ -136,50 +136,50 @@ primary_navigation:
 #    before: 2
 #    after: 2
 
-#exclude:
-#  - package.json
-#  - package-lock.json
-#  - README.md
-#  - CONTRIBUTING.md
-#  - LICENSE.md
-#  - degit.json
-#  - vendor
-#  - node_modules
-#  - Gemfile
-#  - Gemfile.lock
+exclude:
+  - package.json
+  - package-lock.json
+  - README.md
+  - CONTRIBUTING.md
+  - LICENSE.md
+  - degit.json
+  - vendor
+  - node_modules
+  - Gemfile
+  - Gemfile.lock
 
-#assets:
-#  autoprefixer:
-#    browsers:
-#      - "> 2%"
-#      - "last 2 versions"
-#      - "IE 11"
-#      - "not dead"
-#  compression: true
-#  sources:
-#    - _assets/images/logos
-#    - _assets/images/illustrations
-#    - assets/font-awesome/css
-#    - assets/font-awesome/fonts
-#    - node_modules/uswds/dist
-#    - node_modules/netlify-cms/dist
-#    - node_modules/mermaid/dist/
+assets:
+  autoprefixer:
+    browsers:
+      - "> 2%"
+      - "last 2 versions"
+      - "IE 11"
+      - "not dead"
+  compression: true
+  sources:
+    - _assets/images/logos
+    - _assets/images/illustrations
+    - assets/font-awesome/css
+    - assets/font-awesome/fonts
+    - node_modules/uswds/dist
+    - node_modules/netlify-cms/dist
+    - node_modules/mermaid/dist/
 
 ### plugin settings ###
 #last-modified-at:
 #    date-format: '%Y-%m-%d'
 
 # Custom plugin to render the diagrams as mermaid
-#mermaid:
-#  src: 'mermaid.min.js'
-#
-#feed:
-#  path: updates.xml
-#  collections:
-#    kbarticles:
-#      path: "/support.xml"
-#  excerpt_only: true
-#  posts_limit: 20
-#
-#include:
-#  - .well-known
+mermaid:
+  src: 'mermaid.min.js'
+
+feed:
+  path: updates.xml
+  collections:
+    kbarticles:
+      path: "/support.xml"
+  excerpt_only: true
+  posts_limit: 20
+
+include:
+  - .well-known
