@@ -38,7 +38,7 @@ github_branch: master
 primary_navigation:
   - name: Auping for Shorewood
     key: overview
-	url: /overview/
+    url: /overview/
   - name: Policy
     key: policy
     url: /policy/
