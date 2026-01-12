@@ -1,4 +1,4 @@
-<section class="about-section">
+<!--<section class="about-section">
   <div class="site-welcome">
     <h1 class="tablet:grid-col-10">Auping for Shorewood</h1>
 
@@ -16,4 +16,157 @@
     </p>
 
   </div>
-</section> 
+</section> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Auping for Shorewood</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-red w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#home" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+    <a href="#about" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">About</a>
+    <a href="#policy" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Policy</a>
+    <a href="#volunteer" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Volunteer</a>
+    <a href="#events" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Events</a>
+    <a href="#donate" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Donate</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Contact</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="#home" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+    <a href="#about" class="w3-bar-item w3-button w3-padding-large">About</a>
+    <a href="#policy" class="w3-bar-item w3-button w3-padding-large">Policy</a>
+    <a href="#volunteer" class="w3-bar-item w3-button w3-padding-large">Volunteer</a>
+    <a href="#events" class="w3-bar-item w3-button w3-padding-large">Events</a>
+    <a href="#donate" class="w3-bar-item w3-button w3-padding-large">Donate</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large">Contact</a>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-container w3-red w3-center" style="padding:128px 16px" id="home">
+  <h1 class="w3-margin w3-jumbo">Auping for Shorewood</h1>
+  <p class="w3-xlarge" style="line-height:.5">Vote Mitchell Auping</p>
+  <p class="w3-xlarge" style="line-height:.5">Village Board</p>
+  <p class="w3-xlarge" style="line-height:.5">Tuesday April 7th 2026</p>
+  <a href="#volunteer" class="w3-button w3-black w3-padding-large w3-large w3-margin-top">Get Involved</a>
+</header>
+
+<!-- First Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container" id="about">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1>About Mitchell Auping</h1>
+      <h5 class="w3-padding-32">Things about me, the candidate, real person, Mitchell Auping</h5>
+
+      <p class="w3-text-grey">Heyo even more details</p>
+    </div>
+
+    <div class="w3-third w3-center">
+      <i class="fa fa-anchor w3-padding-64 w3-text-red"></i>
+    </div>
+  </div>
+</div>
+
+<!-- Second Grid -->
+<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container" id="policy">
+  <div class="w3-content">
+    <div class="w3-third w3-center">
+	  <img class=" w3-padding-64 w3-margin-right" height="275" width="300" src="images/DPW.jpg" alt="Department of Public Works"/>
+    </div>
+
+    <div class="w3-twothird">
+      <h1>Policy</h1>
+      <h5 class="w3-padding-32">Policy 1</h5>
+      <h5 class="w3-padding-32">Policy 2</h5>
+      <h5 class="w3-padding-32">Policy 3</h5>
+      <h5 class="w3-padding-32">Policy 4</h5>
+    </div>
+  </div>
+</div>
+
+<!-- Third Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container" id="volunteer">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1>Volunteer</h1>
+      <h5 class="w3-padding-32">Please provide your name and email</h5>
+
+      <p class="w3-text-grey">Build tool to collect emails</p>
+    </div>
+
+    <div class="w3-third w3-center">
+      <i class="fa fa-anchor w3-padding-64 w3-text-red"></i>
+    </div>
+  </div>
+</div>
+
+
+<!-- Fourth Grid -->
+<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container" id="events">
+  <div class="w3-content">
+    <div class="w3-third w3-center">
+      <i class="fa fa-coffee w3-padding-64 w3-text-red w3-margin-right"></i>
+    </div>
+
+    <div class="w3-twothird">
+      <h1>Events</h1>
+      <h5 class="w3-padding-32">Upcoming Event</h5>
+    </div>
+  </div>
+</div>
+
+<!-- Fifth Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container" id="donate">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1>Donate</h1>
+      <h5 class="w3-padding-32">Thank you for your contribution</h5>
+
+      <p class="w3-text-grey">Build tool to collect donations</p>
+    </div>
+
+    <div class="w3-third w3-center">
+      <i class="fa fa-anchor w3-padding-64 w3-text-red"></i>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-black w3-center w3-opacity w3-padding-64" id="contact">  
+	<h1 class="w3-margin w3-xlarge">Please Reach Out</h1>
+    <h1 class="w3-margin w3-large">Email: aupingforshorewood@gmail.com</h1>
+</footer>
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>
